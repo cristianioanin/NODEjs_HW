@@ -1,0 +1,37 @@
+.list-group-item {
+  text-align: left;
+  padding: .25rem !important;
+  padding-left: .5rem !important;
+}
+
+.list-group-item span {
+  float: right;
+  margin-right: .5rem;
+}
+
+.card {
+  margin-top: 2rem;
+}
+
+.container {
+  margin-bottom: 5rem;
+}
+
+.jumbotron {
+  padding: 2rem 1rem;
+}
+
+.rounded-circle {
+  margin: 0 auto;
+  max-height: 10rem;
+  max-width: 10rem;
+  padding: 1rem;
+  object-fit: cover;
+  object-position: top;
+}
+
+.list-group-item-action {
+  border-radius: 0 4px 4px 0 !important;
+  background-color: rgb(40, 167, 49);
+  color: rgb(255, 255, 255);
+}

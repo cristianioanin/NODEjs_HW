@@ -1,0 +1,50 @@
+<% include partials/header %>
+
+<div class="container w-50">
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text">GET: </span>
+    </div>
+    <input type="text" class="form-control" value="/api/students" disabled>
+    <div class="input-group-append">
+      <a href="/api/students" class="list-group-item list-group-item-action" target="_blank">
+        Request
+      </a>
+    </div>
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text">GET: </span>
+    </div>
+    <input type="text" class="form-control" value="/api/teachers" disabled>
+    <div class="input-group-append">
+      <a href="/api/teachers" class="list-group-item list-group-item-action" target="_blank">
+        Request
+      </a>
+    </div>
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text">GET: </span>
+    </div>
+    <input type="text" class="form-control" value="/api/students/:id" disabled>
+    <div class="input-group-append">
+      <a href="/api/students/1" class="list-group-item list-group-item-action" target="_blank">
+        Request
+      </a>
+    </div>
+  </div>
+  <div class="input-group mb-3">
+    <div class="input-group-prepend">
+      <span class="input-group-text">GET: </span>
+    </div>
+    <input type="text" class="form-control" value="/api/teachers/:id" disabled>
+    <div class="input-group-append">
+      <a href="/api/teachers/1" class="list-group-item list-group-item-action" target="_blank">
+        Request
+      </a>
+    </div>
+  </div>
+</div>
+
+<% include partials/footer %>

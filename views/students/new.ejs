@@ -1,0 +1,56 @@
+<% include ../partials/header %>
+
+<div class="row justify-content-center">
+  <div class="col-md-12 text-center">
+    <h1 class="h3 mb-3 font-weight-normal text-center">Add a new Student</h1>
+  </div>
+
+  <div class="col-md-9 col-sm-12">
+    <form action="/students" method="POST">
+      <div class="form-group">
+        <label for="firstName">First name</label>
+        <input class="form-control" type="text" name="firstName" placeholder="John" id="firstName" autofocus required>
+      </div>
+      <div class="form-group">
+        <label for="lastName">Last name</label>
+        <input class="form-control" type="text" name="lastName" placeholder="Malkovich" id="lastName" required>
+      </div>
+      <h5>Gender</h5>
+      <div class="custom-control custom-radio">
+        <input type="radio" id="male" name="gender" class="custom-control-input" value="male">
+        <label class="custom-control-label" for="male">Male</label>
+      </div>
+      <div class="custom-control custom-radio">
+        <input type="radio" id="female" name="gender" class="custom-control-input" value="female">
+        <label class="custom-control-label" for="female">Female</label>
+      </div>
+      <h5>Grades</h5>
+      <div class="form-group">
+        <label for="biology" class="w-25">Biology</label>
+        <input class="form-control d-inline w-25" type="number" min="1" max="10" name="biology" placeholder="1 ... 10"
+          id="biology" required>
+      </div>
+      <div class="form-group">
+        <label for="mathematics" class="w-25">Mathematics</label>
+        <input class="form-control d-inline w-25" type="number" min="1" max="10" name="mathematics" placeholder="1 ... 10"
+          id="mathematics" required>
+      </div>
+      <div class="form-group">
+        <label for="science" class="w-25">Science</label>
+        <input class="form-control d-inline w-25" type="number" min="1" max="10" name="science" placeholder="1 ... 10"
+          id="science" required>
+      </div>
+      <div class="form-group">
+        <label for="socialStudies" class="w-25">Social Studies</label>
+        <input class="form-control d-inline w-25" type="number" min="1" max="10" name="socialStudies" placeholder="1 ... 10"
+          id="socialStudies" required>
+      </div>
+      <button class="btn btn-lg btn-outline-success btn-block">Add</button>
+    </form>
+    <div class="mt-3">
+      <a class="text-secondary" href="/students">&larr; Go Back</a>
+    </div>
+  </div>
+
+</div>
+<% include ../partials/footer %>
