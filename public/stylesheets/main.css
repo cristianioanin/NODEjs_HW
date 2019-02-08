@@ -35,3 +35,29 @@
   background-color: rgb(40, 167, 49);
   color: rgb(255, 255, 255);
 }
+
+.btn-enlang {
+  background: url('https://images.unsplash.com/photo-1494419470281-65c2b001a42b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+  background-size: cover;
+  background-position: center;
+  opacity: .5;
+  border: 1px solid #fff;
+}
+
+.btn-rolang {
+  background: url('https://images.unsplash.com/photo-1524464790303-b7f467781d29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+  background-size: cover;
+  background-position: center;
+  opacity: .5;
+  border: 1px solid #fff;
+}
+
+.btn-rolang a,
+.btn-enlang a {
+  color: transparent;
+  font-weight: 600;
+}
+
+.lang-active {
+  opacity: 1;
+}
